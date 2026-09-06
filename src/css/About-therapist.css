@@ -1,0 +1,60 @@
+.about-therapist{
+
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    justify-content:center;
+    gap:160px;
+    padding:80px;
+    background:#66784a;
+    border-radius: 10px;
+
+}
+
+.about-text{
+
+    color: #FFF9E6;
+    text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin-left: 0;
+
+}
+
+.about-therapist h1{
+
+    font-family:"Cormorant Garamond", serif;
+    font-size:80px;
+    line-height:1;
+    margin-bottom:24px;
+
+}
+
+.therapist-biography{
+
+    font-size:17px;
+    line-height:1.7;
+    color:#FFF9E6;
+
+}
+
+.therapist-photo{
+
+    width: 440px;
+    aspect-ratio: 6 / 7;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.25);
+
+}
+
+.therapist-photo img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 75%;
+    display: block;
+
+}

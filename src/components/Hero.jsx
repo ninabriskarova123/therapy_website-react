@@ -1,4 +1,5 @@
 import "../css/Hero.css"
+import { Link } from "react-router-dom"
 
 function Hero() {
 
@@ -10,7 +11,7 @@ function Hero() {
 
                 <h1>NÁVRAT K SEBE</h1>
                 <p className="hero-subtitle">Terapie</p>
-                <a href="work.html">PRESKÚMAJ NAŠE SLUŽBY</a>
+                <Link to = '/reservation'>Preskúmaj naše služby</Link>
 
             </div>
 

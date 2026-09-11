@@ -1,0 +1,106 @@
+
+
+.review-section {
+
+    width:min(880px, calc(100% - 44px));
+    margin:0 auto 80px;
+    padding:44px;
+    border-radius:12px;
+    background:#66784a;
+    color:#FFF9E6;
+    box-shadow:0 28px 60px rgba(75,84,55,0.25);
+
+}
+
+.review-section h2 {
+
+    color:#FFF9E6;
+    text-align:center;
+    font-family:"Cormorant Garamond", serif;
+    font-size:50px;
+    font-weight:500;
+    line-height:1;
+
+}
+
+.review-section > p {
+
+    max-width:520px;
+    margin:18px auto 28px;
+    text-align:center;
+    color:rgba(255,249,230,0.86);
+    font-size:16px;
+    line-height:1.65;
+
+}
+
+.review-form {
+
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+
+}
+
+.review-form textarea {
+
+    width:100%;
+    min-height:170px;
+    padding:18px;
+    border:1px solid rgba(255,249,230,0.42);
+    border-radius:8px;
+    background:rgba(255,249,230,0.95);
+    color:#586940;
+    font-size:16px;
+    line-height:1.6;
+    resize:vertical;
+
+}
+
+.review-form textarea:focus {
+
+    outline:3px solid rgba(255,249,230,0.35);
+    outline-offset:4px;
+
+}
+
+.review-form button {
+
+    align-self:center;
+    min-height:54px;
+    padding:0 32px;
+    border:none;
+    border-radius:999px;
+    background:#FFF9E6;
+    color:#66784a;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:0;
+    text-transform:uppercase;
+    box-shadow:0 16px 34px rgba(0,0,0,0.18);
+    transition:0.3s ease;
+
+}
+
+.review-form button:hover {
+
+    background:#ece4d5;
+    transform:translateY(-4px);
+
+}
+
+.reveal-on-scroll {
+
+    opacity:0;
+    transform:translateY(24px);
+    transition:opacity 0.7s ease, transform 0.7s ease;
+
+}
+
+.reveal-on-scroll.is-visible {
+
+    opacity:1;
+    transform:translateY(0);
+
+}

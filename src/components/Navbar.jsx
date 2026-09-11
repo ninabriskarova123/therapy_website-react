@@ -1,5 +1,6 @@
 import "../css/Navbar.css"
 import { useState, useEffect } from "react"
+import { Link } from 'react-router-dom'
 
 function Navbar() {
 
@@ -34,10 +35,12 @@ function Navbar() {
   return (
     <header className= {headerClass}>
       <nav>
-        <a href="index.html">DOMOV</a>
-        <a href="reservation.html">REZERVÁCIE</a>
-        <a href="reviews.html">HODNOTENIA</a>
-        <a href="contact.html">KONTAKT</a>
+        
+        <Link to= "/">DOMOV</Link>
+        <Link to= "/reservation">REZERVÁCIE</Link>
+        <Link to = "/review">RECENZIE</Link>
+        <Link to= "/contact">KONTAKT</Link>
+        
       </nav>
     </header>
   )

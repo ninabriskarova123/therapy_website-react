@@ -21,7 +21,7 @@
 
 }
 
-.section-label {
+.contact-heading .section-label {
 
     display:inline-flex;
     align-items:center;
@@ -196,26 +196,6 @@
 }
 
 @media (max-width: 720px) {
-
-    .navbar {
-
-        width:94%;
-        padding:16px 18px;
-
-    }
-
-    .navbar nav {
-
-        gap:16px;
-        flex-wrap:wrap;
-
-    }
-
-    .navbar nav a {
-
-        font-size:13px;
-
-    }
 
     .contact-container {
 

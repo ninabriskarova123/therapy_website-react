@@ -1,4 +1,4 @@
-import '../css/ScrollTopButton.css'
+import '../../css/common/ScrollTopButton.css'
 
 import { useState, useEffect } from "react";
 

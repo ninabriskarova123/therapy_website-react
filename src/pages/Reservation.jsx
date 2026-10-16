@@ -1,4 +1,4 @@
-import ReservationHero from '../components/ReservationHero.jsx'
+import ReservationHero from '../components/reservation/ReservationHero.jsx'
 
 function Reservation(){
 

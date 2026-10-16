@@ -56,3 +56,45 @@
     box-shadow:0 10px 30px rgba(0,0,0,0.15);
 
 }
+
+@media (max-width: 1024px){
+
+    .navbar{
+        padding:16px 24px;
+    }
+
+    .navbar nav{
+        gap:28px;
+    }
+
+}
+
+@media (max-width: 720px){
+
+    .navbar{
+        width:94%;
+        padding:14px 16px;
+    }
+
+    .navbar nav{
+        gap:14px;
+    }
+
+    .navbar nav a{
+        font-size:12px;
+        white-space:nowrap;
+    }
+
+}
+
+@media (max-width: 380px){
+
+    .navbar nav{
+        gap:10px;
+    }
+
+    .navbar nav a{
+        font-size:11px;
+    }
+
+}

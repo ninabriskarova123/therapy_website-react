@@ -1,4 +1,4 @@
-import '../css/ReviewList.css'
+import '../../css/review/ReviewList.css'
 
 function ReviewList(){
 

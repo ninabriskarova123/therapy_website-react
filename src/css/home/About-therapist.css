@@ -1,0 +1,107 @@
+.about-therapist{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    padding: 80px;
+    background: var(--green);
+    border-radius: 10px;
+    color: var(--white);
+    box-sizing: border-box;
+}
+
+.about-title,
+.about-subtitle,
+.therapist-biography,
+.therapist-highlight{
+    margin: 0;
+}
+
+.about-subtitle,
+.therapist-highlight{
+    font-family: var(--font-sans);
+    font-weight: 700;
+}
+
+.about-text{
+    flex: 1;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.about-title{
+    font-family: var(--font-serif);
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-shadow: var(--text-shadow);
+}
+
+.about-subtitle{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.therapist-biography{
+    font-family: var(--font-marcellus);
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+.therapist-highlight{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.therapist-photo{
+    width: 440px;
+    aspect-ratio: 6 / 7;
+    overflow: hidden;
+    border-radius: 20px;
+    flex-shrink: 0;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+.therapist-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 75%;
+    display: block;
+}
+
+@media (max-width: 1024px){
+    .about-therapist{ padding: 60px 40px; gap: 50px; }
+    .about-title{ font-size: 60px; }
+    .therapist-photo{ width: 340px; }
+}
+
+@media (max-width: 768px){
+    .about-therapist{
+        flex-direction: column;
+        min-height: auto;
+        padding: 40px 16px;
+        gap: 40px;
+    }
+
+    .about-text{ max-width: 100%; gap: 20px; }
+
+    .about-title{
+        font-size: 44px;
+        text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .about-subtitle{ font-size: 18px; }
+    .therapist-biography{ font-size: 17px; }
+    .therapist-highlight{ font-size: 18px; }
+
+    .therapist-photo{
+        width: 100%;
+        aspect-ratio: 4 / 5;
+    }
+}

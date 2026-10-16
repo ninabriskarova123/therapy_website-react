@@ -1,5 +1,5 @@
-import ReviewList from "../components/ReviewList"
-import ReviewForm from "../components/ReviewForm"
+import ReviewList from "../components/review/ReviewList.jsx"
+import ReviewForm from "../components/review/ReviewForm.jsx"
 
 function Review(){
 

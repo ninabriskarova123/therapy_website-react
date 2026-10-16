@@ -1,9 +1,7 @@
-import Navbar from '../components/Navbar.jsx'
-import Hero from '../components/Hero.jsx'
-import Therapist from '../components/About-therapist.jsx'
-import Support from '../components/Suport-section.jsx'
-import Cta from '../components/Cta.jsx'
-import Button from '../components/ScrollTopButton.jsx'
+import Hero from '../components/home/Hero.jsx'
+import Therapist from '../components/home/About-therapist.jsx'
+import Support from '../components/home/Suport-section.jsx'
+import Cta from '../components/home/CTA.jsx'
 
 function Home(){
 
@@ -11,9 +9,9 @@ function Home(){
 
         <>
         <Hero/>
-        <Therapist/>
         <Support/>
         <Cta/>
+        <Therapist/>
         </>
         
 

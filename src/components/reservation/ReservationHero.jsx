@@ -1,4 +1,4 @@
-import '../css/ReservationHero.css'
+import '../../css/reservation/ReservationHero.css'
 
 function ReservationHero(){
 
@@ -21,7 +21,7 @@ function ReservationHero(){
 
                 <div className="reservation-actions">
 
-                    <a href="https://sonatest.simplybook.me"
+                    <a href="https://testtherapy.simplybook.it"
                        target="_blank"
                        rel="noopener noreferrer"
                        className="reservation-booking-btn">

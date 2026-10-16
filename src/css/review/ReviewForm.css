@@ -12,6 +12,22 @@
 
 }
 
+.review-success{
+
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.review-error{
+
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
 .review-section h2 {
 
     color:#FFF9E6;
@@ -90,6 +106,44 @@
 
 }
 
+@media (max-width: 1024px){
+
+    .review-section{
+        padding:36px;
+    }
+
+    .review-section h2{
+        font-size:42px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .review-section{
+        width:calc(100% - 32px);
+        margin-bottom:56px;
+        padding:28px 20px;
+    }
+
+    .review-section h2{
+        font-size:34px;
+    }
+
+    .review-success,
+    .review-error{
+        font-size:28px;
+        font-weight:700;
+        line-height:1.2;
+        text-align:center;
+    }
+
+    .review-form button{
+        width:100%;
+    }
+
+}
+
 .reveal-on-scroll {
 
     opacity:0;
@@ -104,3 +158,4 @@
     transform:translateY(0);
 
 }
+

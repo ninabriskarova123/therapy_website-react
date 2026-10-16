@@ -1,0 +1,99 @@
+.service{
+
+    padding: 56px 48px 140px;
+    color: var(--green-dark);
+    font-family:var(--font-quicksand);
+
+}
+
+.service-consultation{
+
+    background: #f7f5e8;
+
+}
+
+.service-coaching{
+
+    background: #f2ccbf;
+
+}
+
+.service-title{
+
+    max-width: 650px;
+    margin-bottom: 80px;
+    font-family: var(--font-marcellus);
+    font-size: 76px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: left;
+
+}
+
+.service-text{
+
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+
+}
+
+.service-meta{
+
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.service-btn{
+
+    display: block;
+    width: fit-content;
+    margin: 32px auto 0;
+    padding: 18px 44px;
+    border: 1px solid var(--green-dark);
+    color: var(--green-dark);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+
+}
+
+.service-btn:hover{
+
+    background: var(--green-dark);
+    color: #f7f5e8;
+
+}
+
+@media (max-width: 1024px){
+    .service{ padding: 48px 40px 100px; }
+    .service-title{ font-size: 60px; max-width: 520px; margin-bottom: 60px; }
+    .service-text{ font-size: 18px; }
+    .service-meta{ font-size: 22px; }
+}
+
+@media (max-width: 768px){
+    .service{ padding: 40px 16px 70px; }
+
+    .service-title{
+        font-size: 38px;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .service-text{ font-size: 16px; }
+    .service-meta{ font-size: 18px; }
+
+    .service-btn{
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}

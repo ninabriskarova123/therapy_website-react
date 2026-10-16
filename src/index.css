@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Quicksand:wght@400;500;700&display=swap');
+
+:root{
+
+    --green-dark: #4f6038;
+    --smoke-white: #ece4d5;
+    --text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+    --font-serif: "Cormorant Garamond", serif;
+    --font-sans: "Montserrat", sans-serif;
+    --green: #66784a;
+    --green-dark: #4f6038;
+    --white: #FFFFFF;
+    --font-marcellus: "Marcellus", serif;
+    --font-quicksand:  "Quicksand", sans-serif;
+}

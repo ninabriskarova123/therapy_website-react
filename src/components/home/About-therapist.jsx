@@ -7,7 +7,7 @@ function Therapist(){
         <section className="about-therapist">
 
             <div className="therapist-photo">
-                <img src="/section-aboutme.jpeg" alt="Ivana" />
+                <img src="/about-therapist.jpeg" alt="Ivana Majdová, terapeutka a kouč" />
             </div>
 
             <div className="about-text">
@@ -17,13 +17,13 @@ function Therapist(){
                 <h3 className="about-subtitle">Som Ivana.</h3>
 
                 <p className="therapist-biography">
-                    Dlho som premýšľala nad tým, čo človeka skutočne mení.<br />
-                    Či stačí pochopiť, prečo sa správame určitým spôsobom.<br />
-                    Či stačí vedieť, čo máme robiť.<br />
-                    A čím viac spoznávam ľudí aj seba, tým viac vidím, že zmena
-                    často začína oveľa hlbšie.<br />
-                    V mieste, kde sa stretáva náš príbeh, naše prežívanie, telo,
-                    vzťahy a spôsob, akým sami seba vnímame.
+                    <p className="therapist-biography-roles">Žena, mama, manželka a sprievodkyňa. <br /> </p>
+
+                    Mám rada ticho, slnko, more, leto, cestovanie, smiech a chvíle,
+                    keď nemusím nič riešiť. Verím v silu obyčajného úsmevu, úprimného pohľadu, 
+                    milého slova a láskavého dotyku. Možno aj preto ma celý život priťahujú 
+                    ľudia – ich príbehy, vzťahy, ich vnútorný svet a to, čo sa často ukrýva pod tým, čo nevidíme navonok. 
+                    V živote sú pre mňa dôležité harmónia, ľahkosť, radosť, sloboda a predovšetkým vzťah človeka k sebe samému.
                 </p>
 
                 <p className="therapist-highlight">

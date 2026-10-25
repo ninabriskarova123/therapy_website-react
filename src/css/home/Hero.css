@@ -15,6 +15,7 @@
 /*text*/
 .hero-heading,
 .hero-subtitle,
+.hero-moto,
 .hero-tagline{
     margin: 0;
     text-shadow: var(--text-shadow);
@@ -45,6 +46,16 @@
     font-family: var(--font-sans);
     font-size: 35px;
     font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.hero-moto{
+    font-family: var(--font-serif);
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.4;
+    letter-spacing: 1px;
     margin-bottom: 40px;
 }
 
@@ -126,6 +137,11 @@
         margin-bottom: 20px;
     }
 
+    .hero-moto{
+        font-size: 19px;
+        margin-bottom: 28px;
+    }
+
     .hero-tagline{
         font-size: 17px;
         padding-top: 20px;
@@ -133,6 +149,7 @@
 
     .hero-heading,
     .hero-subtitle,
+    .hero-moto,
     .hero-tagline{
         text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
     }

@@ -29,6 +29,17 @@
 
 }
 
+.process-text-motto{
+
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(79, 96, 56, 0.3);
+    font-size: 28px;
+    font-style: italic;
+    line-height: 1.4;
+
+}
+
 .process-grid{
 
     display: grid;
@@ -91,12 +102,20 @@
 @media (max-width: 1024px){
     .process{ grid-template-columns: 1fr; gap: 40px; padding: 130px 40px 70px; }
     .process-title{ font-size: 56px; }
+    .process-text-motto{ font-size: 26px; }
 }
 
 @media (max-width: 768px){
     .process{ padding: 110px 16px 50px; gap: 32px; }
     .process-title{ font-size: 40px; margin-bottom: 16px; }
     .process-text{ font-size: 16px; letter-spacing: 1px; }
+
+    .process-text-motto{
+        margin-top: 24px;
+        padding-top: 20px;
+        font-size: 22px;
+    }
+
     .process-grid{ grid-template-columns: 1fr; }
 
     .process-card{

@@ -1,18 +1,17 @@
 import "../../css/services/ConsultationService.css"
 import { Link } from "react-router-dom"
 
-function TherapyService(){
+function IndividualTherapy(){
 
     return(
 
         <section className="service service-therapy">
 
-            <h2 className="service-title">TERAPEUTICKÁ PRÁCA</h2>
+            <h2 className="service-title">INDIVIDUÁLNA TERAPIA</h2>
 
             <p className="service-text">
-                Keď nepotrebuješ terapiu, ale potrebuješ nájsť smer.<br />
-                Niekedy človek nepotrebuje riešiť minulosť. Potrebuje sa zastaviť,
-                uvidieť svoju situáciu z iného uhla a objaviť vlastné odpovede.
+                Pre človeka, ktorý chce ísť hlbšie a pracovať na konkrétnych vzorcoch, 
+                presvedčenia, programoch, blokoch, strachpch a traumách. Dovoľ si opäť sa cítiť v bezpečí.
             </p>
 
             <p className="service-meta">Osobne / online</p>
@@ -25,4 +24,4 @@ function TherapyService(){
 
 }
 
-export default TherapyService
+export default IndividualTherapy

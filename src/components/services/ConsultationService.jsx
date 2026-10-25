@@ -10,10 +10,8 @@ function ConsultationService(){
             <h2 className="service-title">KONZULTÁCIA</h2>
 
             <p className="service-text">
-                Keď potrebuješ najprv pochopiť, čo sa s tebou deje.<br />
                 Pri prvom stretnutí si vytvoríme priestor na rozhovor o tom, čo ťa trápi,
-                čo prežívaš a čo by si potrebovala. Spoločne sa pozrieme na to, či a akým
-                spôsobom ti môžem pomôcť.
+                čo prežívaš a čo by si potrebovala. Spoločne sa na to pozrieme. 
             </p>
 
             <p className="service-meta">Osobne / online</p>

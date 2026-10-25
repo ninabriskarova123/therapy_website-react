@@ -15,6 +15,8 @@ function WorkProcess(){
                     stačí prísť s tým, čo ťa trápi.
                 </p>
 
+                <p className="process-text-motto">„Pocit sa nedá kúpiť, dá sa iba prežiť“</p>
+
             </div>
 
             <div className="process-grid">

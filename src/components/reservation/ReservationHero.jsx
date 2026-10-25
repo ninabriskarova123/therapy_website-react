@@ -21,7 +21,7 @@ function ReservationHero(){
 
                 <div className="reservation-actions">
 
-                    <a href="https://testtherapy.simplybook.it"
+                    <a href="https://silavnutra.simplybook.it"
                        target="_blank"
                        rel="noopener noreferrer"
                        className="reservation-booking-btn">
@@ -55,7 +55,7 @@ function ReservationHero(){
 
             <div className="reservation-visual">
 
-                <img src="/thetahealing-session.jpeg" alt="" />
+                <img src="/reservation-image.jpeg" alt="Ivana Majdová pri rezervácii terapie alebo konzultácie" />
 
                 <div className="reservation-card">
                 

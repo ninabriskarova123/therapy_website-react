@@ -28,7 +28,7 @@ function Contact(){
                     <i className="fa-solid fa-envelope"></i>
                     <div>
                         <h2>EMAIL</h2>
-                        <a href="mailto:ivana.terapiesrdcom@gmail.com">ivana.terapiesrdcom@gmail.com</a>
+                        <a href="mailto:ivana.imsilavnutra@gmail.com">imsilavnutra@gmail.com</a>
                     </div>
 
                 </div>
@@ -47,7 +47,17 @@ function Contact(){
                     <i className="fa-brands fa-instagram"></i>
                     <div>
                         <h2>INSTAGRAM</h2>
-                        <a href="https://www.instagram.com/cesta_tvojej_duse" target="_blank" rel="noopener noreferrer">@cesta_tvojej_duse</a>
+                        <a href="https://www.instagram.com/sila.vnutra" target="_blank" rel="noopener noreferrer">sila.vnutra</a>
+                    </div>
+
+                </div>
+
+                   <div className="contact-card">
+                    
+                    <i className="fa-brands fa-facebook"></i>
+                    <div>
+                        <h2>FACEBOOK</h2>
+                        <a href="https://www.facebook.com/profile.php?id=61583294281910" target="_blank" rel="noopener noreferrer">sila.vnutra</a>
                     </div>
 
                 </div>

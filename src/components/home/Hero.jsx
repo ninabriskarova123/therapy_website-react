@@ -13,6 +13,8 @@ function Hero(){
 
                 <p className="hero-subtitle">IVANA MAJDOVÁ</p>
 
+                <p className="hero-moto">„OTVORENÉ SRDCE A ČISTÁ MYSEĽ V HARMÓNIÍ.“</p>
+
                 <Link to="/services" className="hero-button">Preskúmaj naše služby</Link>
 
                 <h2 className="hero-tagline">
@@ -22,7 +24,7 @@ function Hero(){
             </div>
 
             <div className="hero-photo">
-                <img src="/hero-photo.jpeg" alt="Ivana Majdová" />
+                <img src="/hero.jpeg" alt="Ivana Majdová" />
             </div>
 
         </section>

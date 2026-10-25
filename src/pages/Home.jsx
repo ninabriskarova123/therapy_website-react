@@ -1,9 +1,16 @@
+import { useEffect } from 'react'
 import Hero from '../components/home/Hero.jsx'
 import Therapist from '../components/home/About-therapist.jsx'
 import Support from '../components/home/Suport-section.jsx'
 import Cta from '../components/home/CTA.jsx'
 
 function Home(){
+
+    useEffect(() => {
+
+        document.title = "Terapeutka a kouč v Bardejove | Ivana Majdová – SILA VNÚTRA"
+
+    }, [])
 
     return(
 

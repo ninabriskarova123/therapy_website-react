@@ -26,7 +26,7 @@ function Cta(){
 
                 <p className="cta-highlight">
                     Nechcem ti hovoriť, aký život máš žiť. Chcem ti pomôcť znovu
-                    počuť seba, aby si ho mohla začať tvoriť sama.
+                    počuť seba, aby si ho mohol začať tvoriť sám.
                 </p>
 
             </div>
@@ -34,7 +34,7 @@ function Cta(){
             <div className="cta-side">
 
                 <div className="cta-image">
-                    <img src="/section-invite.jpeg" alt="Dve ruky natiahnuté k sebe v lese" />
+                    <img src="/cta-image.jpeg" alt="Dve ruky natiahnuté k sebe v lese" />
                 </div>
 
                 <Link to="/reservation" className="cta-button">Začať konzultáciu</Link>

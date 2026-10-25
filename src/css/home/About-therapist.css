@@ -10,13 +10,21 @@
     border-radius: 10px;
     color: var(--white);
     box-sizing: border-box;
-}
+}   
 
 .about-title,
 .about-subtitle,
 .therapist-biography,
 .therapist-highlight{
     margin: 0;
+}
+
+.therapist-biography-roles{
+
+    font-style: italic;
+    font-size: 22px;
+    margin-bottom: 10px;
+
 }
 
 .about-subtitle,

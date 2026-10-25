@@ -36,9 +36,27 @@ function Footer(){
 
                     <h3 className="footer-title">KONTAKT</h3>
 
-                    <a href="mailto:ivana.terapiesrdcom@gmail.com" className="footer-link">ivana.terapiesrdcom@gmail.com</a>
-                    <a href="tel:+421910223443" className="footer-link">+421 910 223 443</a>
-                    <a href="https://www.instagram.com/cesta_tvojej_duse" target="_blank" rel="noopener noreferrer" className="footer-link">@cesta_tvojej_duse</a>
+                    <a href="mailto:imsilavnutra@gmail.com" className="footer-link">
+                        <i className="fa-solid fa-envelope"></i>
+                        ivana.terapiesrdcom@gmail.com
+                    </a>
+                    <a href="tel:+421910223443" className="footer-link">
+                        <i className="fa-solid fa-phone"></i>
+                        +421 910 223 443
+                    </a>
+                    <a href="https://www.instagram.com/sila.vnutra" target="_blank" rel="noopener noreferrer" className="footer-link">
+                        <i className="fa-brands fa-instagram"></i>
+                        sila.vnutra
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61583294281910" target="_blank" rel="noopener noreferrer" className="footer-link">
+                        <i className="fa-brands fa-facebook"></i>
+                        sila.vnutra
+                    </a>
+
+                    <p className="footer-location">
+                        <i className="fa-solid fa-location-dot"></i>
+                        Bardejov / Tročany
+                    </p>
 
                 </div>
 

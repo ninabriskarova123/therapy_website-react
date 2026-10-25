@@ -43,6 +43,9 @@
 
 .footer-link{
 
+    display: flex;
+    align-items: center;
+    gap: 10px;
     width: fit-content;
     color: #FFF9E6;
     font-size: 16px;
@@ -54,6 +57,24 @@
 .footer-link:hover{
 
     text-decoration: underline;
+
+}
+
+.footer-location{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+
+}
+
+.footer-link i,
+.footer-location i{
+
+    width: 18px;
+    text-align: center;
+    font-size: 18px;
 
 }
 

@@ -88,6 +88,12 @@
 
 }
 
+.footer-bottom-link{
+
+    color: #FFF9E6;
+
+}
+
 @media (max-width: 1024px){
     .footer{ padding: 50px 40px 24px; }
     .footer-top{ gap: 30px; }

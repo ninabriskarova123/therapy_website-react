@@ -38,7 +38,7 @@ function Footer(){
 
                     <a href="mailto:imsilavnutra@gmail.com" className="footer-link">
                         <i className="fa-solid fa-envelope"></i>
-                        ivana.terapiesrdcom@gmail.com
+                        imsilavnutra@gmail.com
                     </a>
                     <a href="tel:+421910223443" className="footer-link">
                         <i className="fa-solid fa-phone"></i>
@@ -62,7 +62,10 @@ function Footer(){
 
             </div>
 
-            <p className="footer-bottom">© 2026 Ivana Majdová. Všetky práva vyhradené.</p>
+            <p className="footer-bottom">
+                © 2026 Ivana Majdová. Všetky práva vyhradené. ·{" "}
+                <Link to="/privacy" className="footer-bottom-link">Ochrana osobných údajov</Link>
+            </p>
 
         </footer>
 

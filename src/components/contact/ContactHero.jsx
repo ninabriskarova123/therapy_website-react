@@ -28,7 +28,7 @@ function Contact(){
                     <i className="fa-solid fa-envelope"></i>
                     <div>
                         <h2>EMAIL</h2>
-                        <a href="mailto:ivana.imsilavnutra@gmail.com">imsilavnutra@gmail.com</a>
+                        <a href="mailto:imsilavnutra@gmail.com">imsilavnutra@gmail.com</a>
                     </div>
 
                 </div>

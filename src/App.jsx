@@ -10,6 +10,7 @@ import Reservation from './pages/Reservation.jsx'
 import Services from './pages/Services.jsx'
 import Review from './pages/Review.jsx'
 import Contact from './pages/Contact.jsx'
+import Privacy from './pages/Privacy.jsx'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/services' element= {<Services/>}/>
         <Route path='/review' element = {<Review/>}/>
         <Route path='/contact' element = {<Contact/>}/>
+        <Route path='/privacy' element = {<Privacy/>}/>
       </Routes>
       <Footer/>
       <ScrollTopButton/>

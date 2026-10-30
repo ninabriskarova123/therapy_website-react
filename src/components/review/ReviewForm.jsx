@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import '../../css/review/ReviewForm.css'
 
@@ -74,6 +75,11 @@ function ReviewForm(){
                     placeholder="Napíšte svoju recenziu..." rows="6" required>
 
                 </textarea>
+
+                <p className="review-consent">
+                    Odoslaním recenzie súhlasíte so spracovaním údajov podľa{" "}
+                    <Link to="/privacy">zásad ochrany osobných údajov</Link>.
+                </p>
 
                 <button type="submit">Odoslať recenziu</button>
             

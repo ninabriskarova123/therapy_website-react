@@ -28,6 +28,13 @@
 
 }
 
+.cookie-link{
+
+    color: var(--green-dark);
+    font-weight: 700;
+
+}
+
 .cookie-btn{
 
     padding: 14px 28px;
